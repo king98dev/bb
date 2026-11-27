@@ -1,0 +1,9 @@
+{
+  "name": "octagon-online",
+  "version": "1.0.0",
+  "description": "Octagon MMA Sandbox with online 1v1 multiplayer",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "test": "node test/rooms.test.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "express": "^4.21.2", "ws": "^8.18.0" }
+}
